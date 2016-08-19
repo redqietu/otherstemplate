@@ -80,7 +80,7 @@ $('.submit-btn').click(function () {
 		data_3   = $('#form_prov').val(),
 		data_4   = $('#form_city').val(),
 		data_5   = $('#form_saler').val(),
-		data_6   = $('#car-input').val();
+		data_6   = $('#form_city2').val();
 	
 	// var partten = /^([\u4e00-\u9fa5]+|([a-zA-Z]+\s?)+)$/;
  //    if(!partten.test(data_1)){
@@ -89,7 +89,7 @@ $('.submit-btn').click(function () {
 	// 	return false;
 	// }
 	var partten = /^([\u4e00-\u9fa5]*[a-zA-Z]*\s?)*$/;
-	if (!partten.test(data_1)) {
+	if (!partten.test(data_1)||$.trim(data_1)==='') {
 		$('#name-input').focus();
 		alert('请填写正确的姓名，只能填写中文或英文！');
 		return false;

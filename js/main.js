@@ -73,14 +73,15 @@ $('.mt-owl-ul li').click(function(){
 });
 
 // 表单提交
-$('.submit-btn').click(function () {		
+$('.submit-btn2').click(function () {		
 	//表单验证 开始	
 	var data_1   = $('#name-input').val(),
 		data_2   = $('#phone-input').val(),
 		data_3   = $('#form_prov').val(),
 		data_4   = $('#form_city').val(),
 		data_5   = $('#form_saler').val(),
-		data_6   = $('#car-input').val();
+		data_6   = $('#form_city2').val();
+		console.log(data_6);
 	
 	// var partten = /^([\u4e00-\u9fa5]+|([a-zA-Z]+\s?)+)$/;
  //    if(!partten.test(data_1)){

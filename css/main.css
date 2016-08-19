@@ -53,14 +53,14 @@ a:focus{ outline: 0; text-decoration:none; }
 .mt-form { float: right; width: 360px; margin-right: 87px; font-size: 13px; padding-top:90px; }
 .mt-form label { float: left; color: #fff; width: 105px; padding-right: 5px; line-height: 22px; font-family: Simsun; text-align: right; }
 .mt-form label.lab-city { width: 68px; }
-.mt-form .form-p { margin-bottom: 10px; overflow: hidden; }
+.mt-form .form-p { overflow: hidden; }
 .mt-form .in-box { float: left; width: 250px; }
-.mt-form .in-box select { width: 100%; border: 0; height: 22px; font-family: Simsun; }
+.mt-form .in-box select { width: 1.9rem; border: 0; height: 22px; font-family: Simsun; }
 .mt-form .in-jxs select { width: 240px; }
-.mt-form .in-pro, .mt-form .in-city { float: left; width: 86px; }
-.mt-form .in-bd { width: 96%; padding: 0 2%; background: #fff; height: 22px; line-height: 22px; font-family: Simsun; }
+.mt-form .in-pro, .mt-form .in-city { float: left; width: 1.35rem;; }
+.mt-form .in-bd { width: 150%; padding: 0 2%; background: #fff; height: 22px; line-height: 22px; font-family: Simsun; }
 .mt-form .submit-p { padding: 5px 0 0 107px; }
-.submit-btn { width: 239px; height: 38px; text-indent: -9999px; background: url(../images/submit.png) no-repeat; cursor: pointer; }
+/*.submit-btn { width: 239px; height: 38px; text-indent: -9999px; background: url(../images/submit.png) no-repeat; cursor: pointer; }*/
 
 /*mt-news-box*/
 .mt-news-box { width: 370px; float: left; padding: 80px 0 0 20px; line-height: 24px; }
